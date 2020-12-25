@@ -1,0 +1,19 @@
+---
+title: "Database"
+category: "Computer Systems Project"
+emoji: "🛢️"
+screenshot: "./bst.png"
+external: "https://cs.brown.edu/courses/cs033/docs/proj/database.pdf"
+tags:
+  - Networking
+  - Multi-threading
+  - Thread safety
+  - Signal handling
+visible: true
+position: 2
+---
+
+Used C to build a server to manage a binary search tree database of kv-pairs that
+can handle multiple client connections over a TCP/IP connection. Implemented fine-grained locking
+to allow for hundreds of concurrent clients to safely search for entries in, add entries to,
+and remove entries from the database.
