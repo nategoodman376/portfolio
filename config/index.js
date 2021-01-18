@@ -47,7 +47,7 @@ module.exports = {
   mediumRssFeed:"https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40nategoodman_40320",
   // rssFeed: "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.theguardian.com%2Finternational%2Frss",
 
-  shownArticles: 3,
+  shownArticles: 2,
 
   //-- SOCIAL MEDIA SETTINGS -----
   // There are icons available for the following platforms:

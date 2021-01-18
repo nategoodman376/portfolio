@@ -152,6 +152,24 @@ const Articles = () => {
       <StyledContentWrapper>
         <h3 className="section-title">Latest Articles</h3>
         <div className="articles">
+          <a
+            href={"https://medium.com/@nategoodman_40320/clustering-word-embedding-representations-of-levins-verb-classes-904648199f1f"} // For displaying 1 private article
+            target="_blank"
+            rel="nofollow noopener noreferrer"
+            title={"Clustering Word Embedding Representations of Levin's Verb Classes"}
+            aria-label={"https://medium.com/@nategoodman_40320/clustering-word-embedding-representations-of-levins-verb-classes-904648199f1f"}
+            key={"https://medium.com/@nategoodman_40320/clustering-word-embedding-representations-of-levins-verb-classes-904648199f1f"}
+          >
+            <div className="card">
+              <span className="category">
+                <Underlining color="tertiary" hoverColor="secondary">
+                  {"Language Processing in Humans and Machines"}
+                </Underlining>
+              </span>
+              <h4 className="title">{"Clustering Word Embedding Representations of Levin's Verb Classes"}</h4>
+              <span className="date">{"18 January 2021"}</span>
+            </div>
+          </a>
           {articles
             ? articles.map(item => (
                 <a
