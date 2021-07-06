@@ -1,0 +1,16 @@
+---
+title: "Raft"
+category: "Distributed Computer Systems Project"
+emoji: "💻"
+screenshot: "./raft.png"
+tags:
+  - Distributed Systems
+  - Senior Capstone
+  - Passive Replication
+  - Golang
+visible: true
+position: 2
+---
+
+Used Go to implement the [Raft](https://web.stanford.edu/~ouster/cgi-bin/papers/raft-atc14) protocol; uses passive replication to maintain a consistent log for a cluster.
+Implemented leader election, log replication, and core functionality for all three node states (leader, follower, and candidate). Implemented the Chandy-Lamport algorithm to provide distributed snapshots of nodes' logs, state machines, and events that transpired in the system as part of Senior Capstone.
